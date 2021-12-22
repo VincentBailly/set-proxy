@@ -1,0 +1,31 @@
+{
+  "name": "set-proxy",
+  "version": "1.0.1",
+  "description": "Make proxies work with sets.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc index.ts --declaration --target 'es6' --module commonjs",
+    "test": "tap"
+  },
+  "keywords": [],
+  "repository": "VincentBailly/set-proxy",
+  "author": {
+    "name": "Vincent Bailly",
+    "email": "vincent.bailly@microsoft.com"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "@types/node": "*"
+  },
+  "peerDependenciesMeta": {
+    "@types/node": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.2",
+    "@types/tap": "^15.0.5",
+    "tap": "^15.1.5",
+    "typescript": "^4.5.4"
+  }
+}
